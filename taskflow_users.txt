@@ -1,0 +1,7 @@
+manager|pass123|MANAGER
+rahil|pass123|MANAGER
+krisha|pass123|EMPLOYEE
+employee|pass123|EMPLOYEE
+Dhruv|pass123|EMPLOYEE
+aryan|pass123|EMPLOYEE
+dev|pass123|EMPLOYEE

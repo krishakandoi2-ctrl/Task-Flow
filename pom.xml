@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <!--
+    Project coordinates — m2 slide 11 pattern:
+      groupId / artifactId / version / packaging
+  -->
+  <groupId>ca.uoit.taskflow</groupId>
+  <artifactId>taskflow</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>TaskFlow</name>
+  <description>
+    CSCI 2020U — Shared Task Manager.
+    Rahil Sanketbhai Vaghasia | Krisha Kandoi.
+    Technologies: Java Swing, Sockets, Threads, File I/O.
+  </description>
+
+  <!--
+    No external dependencies needed.
+    Java Swing, Sockets, Threads, and File I/O are all part of Java SE.
+    This matches the course requirement of using only taught technologies.
+  -->
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <plugins>
+
+      <!--
+        maven-compiler-plugin: compile Java source to bytecode.
+        Source and target set to Java 11.
+      -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
+        <configuration>
+          <source>11</source>
+          <target>11</target>
+        </configuration>
+      </plugin>
+
+      <!--
+        maven-jar-plugin: build executable JARs — m2 slides 36-37.
+
+        Two executions:
+          1. taskflow-server.jar  (mainClass = TaskFlowServer)
+          2. taskflow-client.jar  (mainClass = TaskFlowClient)
+
+        Run with: java -jar target/taskflow-server.jar
+                  java -jar target/taskflow-client.jar
+        (m2 slide 38: java -jar <Name of your file>.jar)
+      -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+
+        <!-- Disable the default JAR execution so we only produce our two named JARs -->
+        <executions>
+
+          <!-- Execution 1: Server JAR -->
+          <execution>
+            <id>server-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <configuration>
+              <archive>
+                <manifest>
+                  <!-- Fully-qualified main class — m2 slide 36 -->
+                  <mainClass>taskflow.server.TaskFlowServer</mainClass>
+                </manifest>
+              </archive>
+              <!-- Output: target/taskflow-server.jar -->
+              <finalName>taskflow-server</finalName>
+            </configuration>
+          </execution>
+
+          <!-- Execution 2: Client JAR -->
+          <execution>
+            <id>client-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <configuration>
+              <archive>
+                <manifest>
+                  <!-- Fully-qualified main class — m2 slide 36 -->
+                  <mainClass>taskflow.client.TaskFlowClient</mainClass>
+                </manifest>
+              </archive>
+              <!-- Output: target/taskflow-client.jar -->
+              <finalName>taskflow-client</finalName>
+            </configuration>
+          </execution>
+
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+
+</project>

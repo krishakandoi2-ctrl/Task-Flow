@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90d428f8-c31e-4b66-a331-3b05b37c0a25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskflow/client/LoginDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskflow/client/LoginDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskflow/client/TaskFlowClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskflow/client/TaskFlowClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskflow/server/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskflow/server/DataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$OutlineBorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog$OutlineBorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/LoginDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$10$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$10$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$TaskRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient$TaskRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/client/TaskFlowClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taskflow/server/DataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/taskflow/server/DataStore.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RahilVaghasia01&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OntarioTech-CS-program/w26-csci2020u-finalproject-w26-team22.git",
+    "accountId": "f836646c-a3e8-43c2-b52a-4af910f664a8"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3BzwNM1HPVkEzOd4LQNAmi5mzGm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TaskFlowClient.executor": "Run",
+    "Application.TaskFlowServer.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="w26-csci2020u-finalproject-w26-team22" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="w26-csci2020u-finalproject-w26-team22" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90d428f8-c31e-4b66-a331-3b05b37c0a25" name="Changes" comment="" />
+      <created>1775505167371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775505167371</updated>
+      <workItem from="1775835173276" duration="4060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
